@@ -17,7 +17,8 @@
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.0" />
+      app:layout_constraintVertical_bias="0.0"
+      android:contentDescription="@string/background" />
 
   <TextView
       android:id="@+id/textView3"
@@ -25,7 +26,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="32dp"
       android:fontFamily="@font/montserrat_subrayada"
-      android:text="choose your league"
+      android:text="@string/choose_your_league"
       android:textColor="#FFFFFF"
       android:textSize="20sp"
       app:layout_constraintEnd_toEndOf="parent"
@@ -40,57 +41,58 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:srcCompat="@drawable/swooshlogo" />
+      app:srcCompat="@drawable/swooshlogo"
+      android:contentDescription="@string/logo" />
 
   <ToggleButton
-      android:id="@+id/toggleButton2"
+      android:id="@+id/menBtn"
       android:layout_width="250dp"
       android:layout_height="wrap_content"
       android:layout_marginTop="16dp"
       android:background="@drawable/btn_toggle"
-      android:text="ToggleButton"
+      android:text="@string/men"
       android:textColor="#FAFAFA"
-      android:textOff="men"
-      android:textOn="men"
+      android:textOff="@string/men"
+      android:textOn="@string/men"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
   <ToggleButton
-      android:id="@+id/toggleButton6"
+      android:id="@+id/womenBtn"
       android:layout_width="250dp"
       android:layout_height="wrap_content"
       android:layout_marginTop="16dp"
       android:background="@drawable/btn_toggle"
-      android:text="ToggleButton"
+      android:text="@string/togglebutton"
       android:textColor="#FAFAFA"
-      android:textOff="women"
-      android:textOn="women"
+      android:textOff="@string/women"
+      android:textOn="@string/women"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/toggleButton2" />
+      app:layout_constraintTop_toBottomOf="@+id/menBtn" />
 
   <ToggleButton
-      android:id="@+id/toggleButton7"
+      android:id="@+id/ufoBtn"
       android:layout_width="250dp"
       android:layout_height="wrap_content"
       android:layout_marginTop="16dp"
       android:background="@drawable/btn_toggle"
-      android:text="ToggleButton"
+      android:text="@string/ufo"
       android:textColor="#FAFAFA"
-      android:textOff="uff"
-      android:textOn="uff"
+      android:textOff="@string/ufo"
+      android:textOn="@string/ufo"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/toggleButton6" />
+      app:layout_constraintTop_toBottomOf="@+id/womenBtn" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/nxtBtn"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_marginBottom="32dp"
       android:background="@drawable/nice_btn"
-      android:text="next"
+      android:text="@string/next"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.0"

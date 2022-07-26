@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">activitiesBasic</string>
+    <string name="choose_your_league">choose your league</string>
+    <string name="background">background</string>
+    <string name="logo">logo</string>
+    <string name="men">men</string>
+    <string name="next">next</string>
+    <string name="ufo">uff</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="women">women</string>
+    <string name="take_it_easy">take it easy</string>
+    <string name="by_taking_it_hard">by taking it hard</string>
+    <string name="title_activity_base">baseActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pro">pro</string>
+    <string name="what_level_rr_u">what level rR U?</string>
+    <string name="what_level_r_u" />
+    <string name="begginer">ToggleButton</string>
 </resources>

@@ -14,10 +14,16 @@
         android:theme="@style/Theme.ActivitiesBasic"
         tools:targetApi="31">
         <activity
+            android:name=".Skill"
+            android:exported="false" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_base"
+            android:theme="@style/Theme.ActivitiesBasic.NoActionBar" />
+        <activity
             android:name=".leagueChooser"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
